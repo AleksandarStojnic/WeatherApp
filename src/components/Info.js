@@ -6,6 +6,7 @@ import {useState} from 'react';
 function Info(props){
 
  
+   console.log(props);
     return(
     <Card>
         <Typography>Departure weather</Typography>
