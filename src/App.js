@@ -57,14 +57,14 @@ function App() {
     <div>
       <Grid container spacing={2}
        direction="row"
-       alignItems="center"
+       alignItems="top"
        justifyContent="center">
+      <Button variant="contained" onClick={() =>{setData1(result)}} style={{ height:"50px"}} >Automatski</Button>
         <Grid item>
           <Container maxWidth="sm">
             <Form submitSearch={onSubmit1}/>
-            <Card props={data1} />
+            <Card props={data1}/>
           </Container>
-          <Button variant="contained" onClick={() =>{setData1(result)}}>Automatski</Button>
         </Grid>
         <Grid item>
           <Container maxWidth="sm">
