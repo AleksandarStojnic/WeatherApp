@@ -70,7 +70,7 @@ function Clouds(props) {
     return (
         <Grid
             container
-            spacing={2}
+            spacing={1}
             direction="row"
             justify="space-between"
             alignItems="center"

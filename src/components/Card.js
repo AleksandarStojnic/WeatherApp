@@ -4,7 +4,7 @@ import Clouds from './Clouds';
 
 function Card(props) {
     return(
-        <div>
+        <div max-width='200px'>
         <Info props={props}/>
         <Clouds props={props} />
         </div>

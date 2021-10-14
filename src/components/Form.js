@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Button from '@mui/material/Button';
 
 
 
@@ -23,9 +24,9 @@ function Form({ submitSearch }) {
                 onChange={e => setLocation(e.target.value)}
             />
 
-            <button type="submit" onClick={onSubmit}>
+            <Button type="submit" onClick={onSubmit} variant="contained" style={{height:20}}>
                 SEARCH
-            </button>
+            </Button>
         </form>
     
     );
